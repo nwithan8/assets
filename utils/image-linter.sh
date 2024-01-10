@@ -6,7 +6,7 @@ main() {
     LINT_FAILED=0
 
     # Iterate over each directory and run tests
-    for DIR in src/*; do
+    for DIR in images/*; do
         for FILE in "$DIR"/*; do
             if ! test_extension; then
                 LINT_FAILED=1
